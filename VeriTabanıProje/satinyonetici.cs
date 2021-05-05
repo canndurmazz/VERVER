@@ -186,5 +186,28 @@ namespace VeriTabanıProje
             Araaaa("select * from personel where departman_id =2 and personel_ad like '" + textBox4.Text + "%'");
            
         }
+        private bool mouseDown;
+        private Point lastLocation;
+        private void satinyonetici_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void satinyonetici_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void satinyonetici_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
+        }
     }
 }

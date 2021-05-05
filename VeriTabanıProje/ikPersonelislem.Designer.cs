@@ -230,7 +230,7 @@
             this.textId.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textId.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textId.Location = new System.Drawing.Point(138, 44);
-            this.textId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textId.Margin = new System.Windows.Forms.Padding(4);
             this.textId.Name = "textId";
             this.textId.Size = new System.Drawing.Size(132, 22);
             this.textId.TabIndex = 12;
@@ -240,7 +240,7 @@
             this.textAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textAd.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textAd.Location = new System.Drawing.Point(138, 76);
-            this.textAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textAd.Margin = new System.Windows.Forms.Padding(4);
             this.textAd.Name = "textAd";
             this.textAd.Size = new System.Drawing.Size(132, 22);
             this.textAd.TabIndex = 13;
@@ -250,7 +250,7 @@
             this.textSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textSoyad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textSoyad.Location = new System.Drawing.Point(138, 108);
-            this.textSoyad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textSoyad.Margin = new System.Windows.Forms.Padding(4);
             this.textSoyad.Name = "textSoyad";
             this.textSoyad.Size = new System.Drawing.Size(132, 22);
             this.textSoyad.TabIndex = 14;
@@ -260,7 +260,7 @@
             this.textTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textTel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textTel.Location = new System.Drawing.Point(138, 140);
-            this.textTel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTel.Margin = new System.Windows.Forms.Padding(4);
             this.textTel.Name = "textTel";
             this.textTel.Size = new System.Drawing.Size(132, 22);
             this.textTel.TabIndex = 15;
@@ -270,7 +270,7 @@
             this.textTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textTC.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textTC.Location = new System.Drawing.Point(138, 269);
-            this.textTC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTC.Margin = new System.Windows.Forms.Padding(4);
             this.textTC.Name = "textTC";
             this.textTC.Size = new System.Drawing.Size(132, 22);
             this.textTC.TabIndex = 17;
@@ -280,7 +280,7 @@
             this.textMaas.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textMaas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textMaas.Location = new System.Drawing.Point(138, 333);
-            this.textMaas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textMaas.Margin = new System.Windows.Forms.Padding(4);
             this.textMaas.Name = "textMaas";
             this.textMaas.Size = new System.Drawing.Size(132, 22);
             this.textMaas.TabIndex = 18;
@@ -291,7 +291,7 @@
             this.textAdres.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textAdres.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textAdres.Location = new System.Drawing.Point(138, 365);
-            this.textAdres.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textAdres.Margin = new System.Windows.Forms.Padding(4);
             this.textAdres.Name = "textAdres";
             this.textAdres.Size = new System.Drawing.Size(132, 22);
             this.textAdres.TabIndex = 19;
@@ -300,7 +300,7 @@
             // 
             this.dateTimePickerDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.dateTimePickerDT.Location = new System.Drawing.Point(138, 237);
-            this.dateTimePickerDT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePickerDT.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePickerDT.Name = "dateTimePickerDT";
             this.dateTimePickerDT.Size = new System.Drawing.Size(132, 22);
             this.dateTimePickerDT.TabIndex = 20;
@@ -309,7 +309,7 @@
             // 
             this.dateTimePickerGT.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.dateTimePickerGT.Location = new System.Drawing.Point(138, 301);
-            this.dateTimePickerGT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePickerGT.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePickerGT.Name = "dateTimePickerGT";
             this.dateTimePickerGT.Size = new System.Drawing.Size(132, 22);
             this.dateTimePickerGT.TabIndex = 21;
@@ -320,7 +320,7 @@
             this.comboBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(138, 397);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(132, 24);
             this.comboBox1.TabIndex = 22;
@@ -334,7 +334,7 @@
             "Kadın",
             "Erkek"});
             this.combocinsiyet.Location = new System.Drawing.Point(138, 204);
-            this.combocinsiyet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.combocinsiyet.Margin = new System.Windows.Forms.Padding(4);
             this.combocinsiyet.Name = "combocinsiyet";
             this.combocinsiyet.Size = new System.Drawing.Size(132, 24);
             this.combocinsiyet.TabIndex = 23;
@@ -344,7 +344,7 @@
             this.textMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textMail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textMail.Location = new System.Drawing.Point(138, 172);
-            this.textMail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textMail.Margin = new System.Windows.Forms.Padding(4);
             this.textMail.Name = "textMail";
             this.textMail.Size = new System.Drawing.Size(132, 22);
             this.textMail.TabIndex = 24;
@@ -365,7 +365,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(278, 44);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(838, 525);
@@ -376,7 +376,7 @@
             // 
             this.textAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textAra.Location = new System.Drawing.Point(318, 14);
-            this.textAra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textAra.Margin = new System.Windows.Forms.Padding(4);
             this.textAra.Name = "textAra";
             this.textAra.Size = new System.Drawing.Size(132, 22);
             this.textAra.TabIndex = 27;
@@ -471,7 +471,7 @@
             this.textil.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textil.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textil.Location = new System.Drawing.Point(138, 430);
-            this.textil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textil.Margin = new System.Windows.Forms.Padding(4);
             this.textil.Name = "textil";
             this.textil.Size = new System.Drawing.Size(132, 22);
             this.textil.TabIndex = 35;
@@ -481,7 +481,7 @@
             this.textilce.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textilce.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textilce.Location = new System.Drawing.Point(138, 462);
-            this.textilce.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textilce.Margin = new System.Windows.Forms.Padding(4);
             this.textilce.Name = "textilce";
             this.textilce.Size = new System.Drawing.Size(132, 22);
             this.textilce.TabIndex = 36;
@@ -491,7 +491,7 @@
             this.textmahalle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textmahalle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textmahalle.Location = new System.Drawing.Point(138, 494);
-            this.textmahalle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textmahalle.Margin = new System.Windows.Forms.Padding(4);
             this.textmahalle.Name = "textmahalle";
             this.textmahalle.Size = new System.Drawing.Size(132, 22);
             this.textmahalle.TabIndex = 37;
@@ -501,7 +501,7 @@
             this.textsokak.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textsokak.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textsokak.Location = new System.Drawing.Point(138, 526);
-            this.textsokak.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textsokak.Margin = new System.Windows.Forms.Padding(4);
             this.textsokak.Name = "textsokak";
             this.textsokak.Size = new System.Drawing.Size(132, 22);
             this.textsokak.TabIndex = 38;
@@ -511,7 +511,7 @@
             this.textno.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textno.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textno.Location = new System.Drawing.Point(138, 557);
-            this.textno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textno.Margin = new System.Windows.Forms.Padding(4);
             this.textno.Name = "textno";
             this.textno.Size = new System.Drawing.Size(132, 22);
             this.textno.TabIndex = 39;
@@ -521,7 +521,7 @@
             this.textdaire.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textdaire.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textdaire.Location = new System.Drawing.Point(138, 589);
-            this.textdaire.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textdaire.Margin = new System.Windows.Forms.Padding(4);
             this.textdaire.Name = "textdaire";
             this.textdaire.Size = new System.Drawing.Size(132, 22);
             this.textdaire.TabIndex = 40;
@@ -532,7 +532,7 @@
             this.btnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnTemizle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnTemizle.Location = new System.Drawing.Point(544, 577);
-            this.btnTemizle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTemizle.Margin = new System.Windows.Forms.Padding(4);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(120, 36);
             this.btnTemizle.TabIndex = 41;
@@ -546,7 +546,7 @@
             this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnEkle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnEkle.Location = new System.Drawing.Point(288, 577);
-            this.btnEkle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEkle.Margin = new System.Windows.Forms.Padding(4);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(120, 36);
             this.btnEkle.TabIndex = 42;
@@ -560,7 +560,7 @@
             this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSil.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSil.Location = new System.Drawing.Point(416, 577);
-            this.btnSil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(4);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(120, 36);
             this.btnSil.TabIndex = 43;
@@ -574,7 +574,7 @@
             this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGuncelle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnGuncelle.Location = new System.Drawing.Point(672, 577);
-            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(120, 36);
             this.btnGuncelle.TabIndex = 44;
@@ -703,11 +703,14 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ikPersonelislem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ikPersonelislem";
             this.Load += new System.EventHandler(this.ikPersonelislem_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ikPersonelislem_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ikPersonelislem_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ikPersonelislem_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

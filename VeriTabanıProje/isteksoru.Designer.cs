@@ -65,6 +65,9 @@ namespace VeriTabanıProje
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "isteksoru";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.isteksoru_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.isteksoru_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.isteksoru_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -98,6 +98,9 @@ namespace VeriTabanıProje
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "satinsecim";
             this.Text = "satinsecim";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.satinsecim_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.satinsecim_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.satinsecim_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

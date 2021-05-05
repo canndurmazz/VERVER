@@ -229,5 +229,28 @@ namespace VeriTabanıProje
         {
             Araa("Select * from Adres where adres_id in(select adres_id from Tedarikci) and ilce like'" + adresara.Text + "%'");
         }
+        private bool mouseDown;
+        private Point lastLocation;
+        private void yenitedarikci_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void yenitedarikci_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void yenitedarikci_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
+        }
     }
 }

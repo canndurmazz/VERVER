@@ -40,5 +40,28 @@ namespace VeriTabanıProje
             }
             dataGridView1.DataSource = dTable;
         }
+        private bool mouseDown;
+        private Point lastLocation;
+        private void satismesaj_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void satismesaj_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void satismesaj_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
+        }
     }
 }

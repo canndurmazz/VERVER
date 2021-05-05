@@ -99,6 +99,9 @@ namespace VeriTabanıProje
             this.Name = "satışsecim";
             this.Text = "secim";
             this.Load += new System.EventHandler(this.secim_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.satışsecim_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.satışsecim_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.satışsecim_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

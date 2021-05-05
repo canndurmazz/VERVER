@@ -47,7 +47,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(445, 31);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(511, 442);
@@ -71,7 +71,7 @@
             this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnEkle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnEkle.Location = new System.Drawing.Point(16, 76);
-            this.btnEkle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEkle.Margin = new System.Windows.Forms.Padding(4);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(405, 180);
             this.btnEkle.TabIndex = 43;
@@ -208,11 +208,14 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ikyoneticimenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ikyoneticimenu";
             this.Load += new System.EventHandler(this.ikyoneticimenu_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ikyoneticimenu_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ikyoneticimenu_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ikyoneticimenu_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

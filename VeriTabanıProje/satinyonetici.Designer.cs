@@ -222,6 +222,9 @@ namespace VeriTabanıProje
             this.Name = "satinyonetici";
             this.Text = "satinyonetici";
             this.Load += new System.EventHandler(this.satinyonetici_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.satinyonetici_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.satinyonetici_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.satinyonetici_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

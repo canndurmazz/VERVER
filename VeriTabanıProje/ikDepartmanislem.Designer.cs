@@ -57,7 +57,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(13, 137);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(496, 271);
@@ -68,7 +68,7 @@
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(520, 135);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.Size = new System.Drawing.Size(477, 271);
@@ -80,7 +80,7 @@
             this.textDepid.Enabled = false;
             this.textDepid.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textDepid.Location = new System.Drawing.Point(120, 38);
-            this.textDepid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textDepid.Margin = new System.Windows.Forms.Padding(4);
             this.textDepid.Name = "textDepid";
             this.textDepid.Size = new System.Drawing.Size(132, 22);
             this.textDepid.TabIndex = 2;
@@ -89,7 +89,7 @@
             // 
             this.textDepad.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textDepad.Location = new System.Drawing.Point(416, 38);
-            this.textDepad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textDepad.Margin = new System.Windows.Forms.Padding(4);
             this.textDepad.Name = "textDepad";
             this.textDepad.Size = new System.Drawing.Size(132, 22);
             this.textDepad.TabIndex = 3;
@@ -99,7 +99,7 @@
             this.textYonetici.Enabled = false;
             this.textYonetici.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textYonetici.Location = new System.Drawing.Point(690, 38);
-            this.textYonetici.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textYonetici.Margin = new System.Windows.Forms.Padding(4);
             this.textYonetici.Name = "textYonetici";
             this.textYonetici.Size = new System.Drawing.Size(132, 22);
             this.textYonetici.TabIndex = 4;
@@ -108,7 +108,7 @@
             // 
             this.textAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textAra.Location = new System.Drawing.Point(864, 103);
-            this.textAra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textAra.Margin = new System.Windows.Forms.Padding(4);
             this.textAra.Name = "textAra";
             this.textAra.Size = new System.Drawing.Size(132, 22);
             this.textAra.TabIndex = 5;
@@ -169,7 +169,7 @@
             this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnEkle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnEkle.Location = new System.Drawing.Point(16, 416);
-            this.btnEkle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEkle.Margin = new System.Windows.Forms.Padding(4);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(107, 28);
             this.btnEkle.TabIndex = 10;
@@ -184,7 +184,7 @@
             this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSil.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSil.Location = new System.Drawing.Point(131, 416);
-            this.btnSil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(4);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(121, 28);
             this.btnSil.TabIndex = 11;
@@ -198,7 +198,7 @@
             this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGuncelle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnGuncelle.Location = new System.Drawing.Point(260, 416);
-            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(130, 28);
             this.btnGuncelle.TabIndex = 12;
@@ -237,7 +237,7 @@
             this.btnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnTemizle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnTemizle.Location = new System.Drawing.Point(398, 416);
-            this.btnTemizle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTemizle.Margin = new System.Windows.Forms.Padding(4);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(114, 28);
             this.btnTemizle.TabIndex = 15;
@@ -337,11 +337,14 @@
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ikDepartmanislem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ikDepartmanislem";
             this.Load += new System.EventHandler(this.ikDepartmanislem_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ikDepartmanislem_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ikDepartmanislem_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ikDepartmanislem_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);

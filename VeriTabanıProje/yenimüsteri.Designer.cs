@@ -487,6 +487,9 @@ namespace VeriTabanıProje
             this.Name = "yenimüsteri";
             this.Text = "yenimüsteri";
             this.Load += new System.EventHandler(this.yenimüsteri_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.yenimüsteri_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.yenimüsteri_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.yenimüsteri_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);

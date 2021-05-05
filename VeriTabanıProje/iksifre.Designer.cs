@@ -146,10 +146,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "iksifre";
             this.Text = "iksifre";
             this.Load += new System.EventHandler(this.iksifre_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.iksifre_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.iksifre_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.iksifre_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

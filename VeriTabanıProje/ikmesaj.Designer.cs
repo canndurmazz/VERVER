@@ -68,6 +68,9 @@ namespace VeriTabanıProje
             this.Name = "ikmesaj";
             this.Text = "ikgelen";
             this.Load += new System.EventHandler(this.ikmesaj_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ikmesaj_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ikmesaj_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ikmesaj_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

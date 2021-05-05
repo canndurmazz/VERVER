@@ -57,6 +57,8 @@ namespace VeriTabanıProje
                             {
                                 sayac = sayac + 1;
                                 ikMenu menu = new ikMenu();
+                                menu.Show();
+                                this.Hide();
                             }
                         }
                         if (sayac == 0)
@@ -111,10 +113,33 @@ namespace VeriTabanıProje
         {
 
         }
-
+        private bool mouseDown;
+        private Point lastLocation;
         private void iksifre_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void iksifre_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void iksifre_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void iksifre_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
         }
     }
 }

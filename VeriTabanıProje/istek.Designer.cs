@@ -30,32 +30,17 @@ namespace VeriTabanıProje
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            
             this.ıstekBindingSource = new System.Windows.Forms.BindingSource(this.components);
-          
             this.ileti = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-       
             this.ıstekBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-           
             this.istekcombo = new System.Windows.Forms.ComboBox();
-          
             this.ıstekBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-          
             this.label1 = new System.Windows.Forms.Label();
-          
             ((System.ComponentModel.ISupportInitialize)(this.ıstekBindingSource)).BeginInit();
-          
             ((System.ComponentModel.ISupportInitialize)(this.ıstekBindingSource1)).BeginInit();
-            
             ((System.ComponentModel.ISupportInitialize)(this.ıstekBindingSource2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // fabrikavtDataSet5
-            // 
-           
-            // 
-         
             // 
             // ileti
             // 
@@ -77,9 +62,6 @@ namespace VeriTabanıProje
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // fabrikavtDataSet6
-            // 
-          
             // istekcombo
             // 
             this.istekcombo.FormattingEnabled = true;
@@ -95,9 +77,7 @@ namespace VeriTabanıProje
             this.istekcombo.TabIndex = 3;
             this.istekcombo.SelectedIndexChanged += new System.EventHandler(this.istekcombo_SelectedIndexChanged);
             // 
-            // fabrikavtDataSet7
-            // 
-           
+            // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -123,11 +103,11 @@ namespace VeriTabanıProje
             this.Name = "istek";
             this.Text = "istek";
             this.Load += new System.EventHandler(this.istek_Load);
-          
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.istek_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.istek_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.istek_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.ıstekBindingSource)).EndInit();
-        
             ((System.ComponentModel.ISupportInitialize)(this.ıstekBindingSource1)).EndInit();
-           
             ((System.ComponentModel.ISupportInitialize)(this.ıstekBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

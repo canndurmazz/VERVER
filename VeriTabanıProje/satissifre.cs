@@ -37,7 +37,7 @@ namespace VeriTabanıProje
             {
                 try
                 {
-                    SqlCommand al = new SqlCommand("select * from Kullanicilar where kullanici_ad=@kullanici_ad and kullanici_sifre=@kullanici_sifre", baglanti);
+                    SqlCommand al = new SqlCommand("Select kullanici_ad,kullanici_sifre from kullanicilar where yetki_id=(select yetki_id from yetki where yetki_ad='Personel') and kullanici_id in (select personel_id from personel where departman_id=(select departman_id from departman where departman_ad='Satış'))", baglanti);
                     al.Parameters.Add("@kullanici_ad", SqlDbType.VarChar, 50).Value = kullanici_ad.Text;
                     al.Parameters.Add("@kullanici_sifre", SqlDbType.VarChar, 50).Value = kullanici_sifre.Text;
 
@@ -104,5 +104,34 @@ namespace VeriTabanıProje
             satisyoneticisifre.Show();
             this.Hide();
         }
+
+        private void satissifre_Load(object sender, EventArgs e)
+        {
+
+        }
+        private bool mouseDown;
+        private Point lastLocation;
+        private void satissifre_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void satissifre_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void satissifre_MouseUp(object sender, MouseEventArgs e)
+        {
+mouseDown = false;
+        }
+        
     }
 }

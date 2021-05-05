@@ -32,14 +32,10 @@ namespace VeriTabanıProje
             this.components = new System.ComponentModel.Container();
             this.button3 = new System.Windows.Forms.Button();
             this.musteriBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            
             this.adresBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            
             this.musteriBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-           
             this.button2 = new System.Windows.Forms.Button();
             this.adresBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-           
             this.label10 = new System.Windows.Forms.Label();
             this.adresara = new System.Windows.Forms.TextBox();
             this.tedarikciara = new System.Windows.Forms.TextBox();
@@ -68,45 +64,28 @@ namespace VeriTabanıProje
             this.label8 = new System.Windows.Forms.Label();
             this.tedarikci_mail = new System.Windows.Forms.TextBox();
             this.musteriBindingSource = new System.Windows.Forms.BindingSource(this.components);
-           
             this.adresBindingSource = new System.Windows.Forms.BindingSource(this.components);
-          
             this.tedarikci_tel = new System.Windows.Forms.TextBox();
             this.tedarikci_ad = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-           
-           
-         
             this.tedarikciBindingSource = new System.Windows.Forms.BindingSource(this.components);
-           
-    
             this.tedarikciBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-         
             this.tedarikciBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-       
-           
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.musteriBindingSource1)).BeginInit();
-            
             ((System.ComponentModel.ISupportInitialize)(this.adresBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.musteriBindingSource2)).BeginInit();
-            
             ((System.ComponentModel.ISupportInitialize)(this.adresBindingSource2)).BeginInit();
-           
             ((System.ComponentModel.ISupportInitialize)(this.musteriBindingSource)).BeginInit();
-           
             ((System.ComponentModel.ISupportInitialize)(this.adresBindingSource)).BeginInit();
-          
             ((System.ComponentModel.ISupportInitialize)(this.tedarikciBindingSource)).BeginInit();
-            
             ((System.ComponentModel.ISupportInitialize)(this.tedarikciBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tedarikciBindingSource2)).BeginInit();
-           
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -123,13 +102,6 @@ namespace VeriTabanıProje
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // musteriBindingSource1
-          
-            // 
-            // adresBindingSource1
-            // 
-           
-            // 
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -141,13 +113,6 @@ namespace VeriTabanıProje
             this.button2.Text = "Gelen Mesaj";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // adresBindingSource2
-          
-            // 
-            // fabrikavtDataSet11
-            // 
-            
             // 
             // label10
             // 
@@ -396,8 +361,7 @@ namespace VeriTabanıProje
             this.tedarikci_mail.Location = new System.Drawing.Point(153, 117);
             this.tedarikci_mail.Name = "tedarikci_mail";
             this.tedarikci_mail.Size = new System.Drawing.Size(152, 22);
-            this.tedarikci_mail.TabIndex = 78;          
-           
+            this.tedarikci_mail.TabIndex = 78;
             // 
             // tedarikci_tel
             // 
@@ -457,25 +421,6 @@ namespace VeriTabanıProje
             this.label2.TabIndex = 86;
             this.label2.Text = "Tedarikçi Ad :";
             // 
-            // adresTableAdapter
-            // 
-          
-            // 
-            // musteriTableAdapter
-            // 
-          
-            // 
-            // fabrikavtDataSet18
-            // 
-       
-            // 
-            // tedarikciBindingSource1
-            // 
-         
-            // 
-            // fabrikavtDataSet20
-            // 
-       
             // button4
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -558,23 +503,18 @@ namespace VeriTabanıProje
             this.Name = "yenitedarikci";
             this.Text = "yenitedarikci";
             this.Load += new System.EventHandler(this.yenitedarikci_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.yenitedarikci_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.yenitedarikci_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.yenitedarikci_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.musteriBindingSource1)).EndInit();
-           
             ((System.ComponentModel.ISupportInitialize)(this.adresBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.musteriBindingSource2)).EndInit();
-           
             ((System.ComponentModel.ISupportInitialize)(this.adresBindingSource2)).EndInit();
-           
             ((System.ComponentModel.ISupportInitialize)(this.musteriBindingSource)).EndInit();
-          
             ((System.ComponentModel.ISupportInitialize)(this.adresBindingSource)).EndInit();
-           
-        
             ((System.ComponentModel.ISupportInitialize)(this.tedarikciBindingSource)).EndInit();
-           
             ((System.ComponentModel.ISupportInitialize)(this.tedarikciBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tedarikciBindingSource2)).EndInit();
-           
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);

@@ -11,22 +11,21 @@ using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Collections;
 
-
 namespace VeriTabanıProje
 {
-    public partial class ikmesaj : Form
+    public partial class finansmesaj : Form
     {
         SqlConnection baglanti = new SqlConnection("Data Source=CANPC\\SQLEXPRESS;Initial Catalog=fabrikavt;Integrated Security=True;MultipleActiveResultSets=True;");
-        public ikmesaj()
+        public finansmesaj()
         {
             InitializeComponent();
         }
 
-        private void ikmesaj_Load(object sender, EventArgs e)
+        private void finansmesaj_Load(object sender, EventArgs e)
         {
             DataTable dTable = new DataTable();
 
-            SqlDataAdapter dAdapter = new SqlDataAdapter("SELECT departman_ad,ileti FROM Istek WHERE departman_id=5", baglanti);
+            SqlDataAdapter dAdapter = new SqlDataAdapter("SELECT departman_ad,ileti FROM Istek WHERE departman_id=4", baglanti);
             {
                 dAdapter.Fill(dTable);
             }
@@ -39,13 +38,13 @@ namespace VeriTabanıProje
         }
         private bool mouseDown;
         private Point lastLocation;
-        private void ikmesaj_MouseDown(object sender, MouseEventArgs e)
+        private void finansmesaj_MouseDown(object sender, MouseEventArgs e)
         {
             mouseDown = true;
             lastLocation = e.Location;
         }
 
-        private void ikmesaj_MouseMove(object sender, MouseEventArgs e)
+        private void finansmesaj_MouseMove(object sender, MouseEventArgs e)
         {
             if (mouseDown)
             {
@@ -56,9 +55,8 @@ namespace VeriTabanıProje
             }
         }
 
-        private void ikmesaj_MouseUp(object sender, MouseEventArgs e)
+        private void finansmesaj_MouseUp(object sender, MouseEventArgs e)
         {
-
             mouseDown = false;
         }
     }

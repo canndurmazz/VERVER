@@ -40,7 +40,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(231, 30);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 145);
             this.button1.TabIndex = 1;
@@ -54,7 +54,7 @@
             this.btnPersonel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnPersonel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnPersonel.Location = new System.Drawing.Point(13, 30);
-            this.btnPersonel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPersonel.Margin = new System.Windows.Forms.Padding(4);
             this.btnPersonel.Name = "btnPersonel";
             this.btnPersonel.Size = new System.Drawing.Size(128, 145);
             this.btnPersonel.TabIndex = 0;
@@ -97,11 +97,14 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnPersonel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ikMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ikMenu";
             this.Load += new System.EventHandler(this.ikMenu_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ikMenu_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ikMenu_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ikMenu_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

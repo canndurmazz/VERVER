@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="finans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finans.Designer.cs">
+      <DependentUpon>finans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finansmesaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finansmesaj.Designer.cs">
+      <DependentUpon>finansmesaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finanssifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finanssifre.Designer.cs">
+      <DependentUpon>finanssifre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finansyonetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finansyonetici.Designer.cs">
+      <DependentUpon>finansyonetici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finansyoneticisifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finansyoneticisifre.Designer.cs">
+      <DependentUpon>finansyoneticisifre.cs</DependentUpon>
+    </Compile>
     <Compile Include="ikDepartmanislem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -216,6 +246,21 @@
     <Compile Include="yenitedarikci.Designer.cs">
       <DependentUpon>yenitedarikci.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="finans.resx">
+      <DependentUpon>finans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finansmesaj.resx">
+      <DependentUpon>finansmesaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finanssifre.resx">
+      <DependentUpon>finanssifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finansyonetici.resx">
+      <DependentUpon>finansyonetici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finansyoneticisifre.resx">
+      <DependentUpon>finansyoneticisifre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ikDepartmanislem.resx">
       <DependentUpon>ikDepartmanislem.cs</DependentUpon>
     </EmbeddedResource>

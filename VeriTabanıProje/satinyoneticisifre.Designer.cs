@@ -124,6 +124,9 @@ namespace VeriTabanıProje
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "satinyoneticisifre";
             this.Text = "satinyoneticisifre";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.satinyoneticisifre_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.satinyoneticisifre_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.satinyoneticisifre_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

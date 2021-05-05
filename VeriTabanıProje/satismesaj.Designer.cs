@@ -29,15 +29,10 @@ namespace VeriTabanıProje
         /// </summary>
         private void InitializeComponent()
         {
-           
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // ıstekTableAdapter1
-            // 
-         
             // 
             // dataGridView1
             // 
@@ -75,6 +70,9 @@ namespace VeriTabanıProje
             this.Name = "satismesaj";
             this.Text = "satismesaj";
             this.Load += new System.EventHandler(this.satismesaj_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.satismesaj_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.satismesaj_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.satismesaj_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

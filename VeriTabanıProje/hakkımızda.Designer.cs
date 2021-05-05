@@ -106,6 +106,9 @@ namespace VeriTabanıProje
             this.Name = "hakkımızda";
             this.Text = "t";
             this.Load += new System.EventHandler(this.hakkımızda_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.hakkımızda_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.hakkımızda_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.hakkımızda_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

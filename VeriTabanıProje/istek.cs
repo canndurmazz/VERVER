@@ -126,8 +126,7 @@ namespace VeriTabanıProje
                     baglanti.Close();
                     MessageBox.Show("Mesaj Başarıyla Gönderildi !");
 
-                    siparis siparis = new siparis();
-                    siparis.Show();
+                   
                     this.Hide();
                 }
                 catch (Exception hata)
@@ -155,8 +154,7 @@ namespace VeriTabanıProje
                     komut.ExecuteNonQuery();
                     baglanti.Close();
                     MessageBox.Show("Mesaj Başarıyla Gönderildi !");
-                    siparis siparis = new siparis();
-                    siparis.Show();
+                    
                     this.Hide();
                 }
                 catch (Exception hata)
@@ -169,8 +167,7 @@ namespace VeriTabanıProje
 
         private void label2_Click(object sender, EventArgs e)
         {
-            siparis siparis = new siparis();
-            siparis.Show();
+         
             this.Hide();
         }
 
@@ -178,6 +175,29 @@ namespace VeriTabanıProje
         {
             
             this.Hide();
+        }
+        private bool mouseDown;
+        private Point lastLocation;
+        private void istek_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void istek_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void istek_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
         }
     }
 }
