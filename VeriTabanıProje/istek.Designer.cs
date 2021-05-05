@@ -65,12 +65,6 @@ namespace VeriTabanıProje
             // istekcombo
             // 
             this.istekcombo.FormattingEnabled = true;
-            this.istekcombo.Items.AddRange(new object[] {
-            "Satış Departmanı",
-            "Satın Alma Departmanı",
-            "Üretim Departmanı",
-            "Finans Departmanı",
-            "İnsan Kaynakları Departmanı"});
             this.istekcombo.Location = new System.Drawing.Point(12, 12);
             this.istekcombo.Name = "istekcombo";
             this.istekcombo.Size = new System.Drawing.Size(215, 24);
