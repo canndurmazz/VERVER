@@ -147,7 +147,7 @@ namespace VeriTabanıProje
                     baglanti.Close();
                     MessageBox.Show("Mesaj Başarıyla Gönderildi !");
 
-                   
+
                     this.Hide();
                 }
                 catch (Exception hata)
@@ -175,7 +175,7 @@ namespace VeriTabanıProje
                     komut.ExecuteNonQuery();
                     baglanti.Close();
                     MessageBox.Show("Mesaj Başarıyla Gönderildi !");
-                    
+
                     this.Hide();
                 }
                 catch (Exception hata)
@@ -236,6 +236,7 @@ namespace VeriTabanıProje
                 }
                 baglanti.Close();
             }
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -271,6 +272,11 @@ namespace VeriTabanıProje
         private void istek_MouseUp(object sender, MouseEventArgs e)
         {
             mouseDown = false;
+        }
+
+        private void istekcombo_SelectedValueChanged(object sender, EventArgs e)
+        {
+          
         }
     }
 }

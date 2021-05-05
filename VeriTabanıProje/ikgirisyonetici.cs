@@ -22,16 +22,15 @@ namespace VeriTabanıProje
 
         private void label4_Click(object sender, EventArgs e)
         {
-            iksifre geri = new iksifre();
+            kmc kmc = new kmc();
+            kmc.Show();
             this.Hide();
-            geri.Show();
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-            kmc giris = new kmc();
-            this.Hide();
-            giris.Show();
+            Application.Exit();
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)

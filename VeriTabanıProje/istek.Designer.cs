@@ -70,6 +70,7 @@ namespace VeriTabanıProje
             this.istekcombo.Size = new System.Drawing.Size(215, 24);
             this.istekcombo.TabIndex = 3;
             this.istekcombo.SelectedIndexChanged += new System.EventHandler(this.istekcombo_SelectedIndexChanged);
+            this.istekcombo.SelectedValueChanged += new System.EventHandler(this.istekcombo_SelectedValueChanged);
             // 
             // label1
             // 

@@ -77,9 +77,8 @@ namespace VeriTabanıProje
 
         private void label3_Click(object sender, EventArgs e)
         {
-            kmc ana = new kmc();
-            this.Hide();
-            ana.Show();
+            Application.Exit();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -91,7 +90,9 @@ namespace VeriTabanıProje
 
         private void label4_Click(object sender, EventArgs e)
         {
-
+            kmc kmc = new kmc();
+            kmc.Show();
+            this.Hide();
         }
 
         private void kullaniciSifre_TextChanged(object sender, EventArgs e)
