@@ -54,29 +54,12 @@ namespace VeriTabanıProje
                 uruncombo.Items.Add(okuu["urun_ad"]);
             }
             baglanti.Close();
-           //baglanti.Open();
-           // try
-           // {
-           //     SqlCommand all = new SqlCommand("select max(satis_id) as satis from Satis ", baglanti);
-           //     SqlDataReader okuuu = all.ExecuteReader();
-           //     if (!okuuu.HasRows)
-           //     {
-           //         okuuu.Close();
-           //         baglanti.Close();
-           //     }
-           //     else
-           //     {
-           //         while (okuuu.Read())
-           //         {
-           //             satis_id.Text = (int.Parse(okuuu["satis"].ToString()) + 1).ToString();
-           //         }
-           //     }
-           // }
-           // catch (Exception hata)
-           // {
-           //     MessageBox.Show(hata.Message);
-           // }
-           // baglanti.Close();
+
+
+
+            // KAYNAK : https://www.youtube.com/watch?v=NZ1RZxR6ThI
+
+
 
 
         }
@@ -133,6 +116,9 @@ namespace VeriTabanıProje
         {
             Basla();
             Getir();
+
+
+            // KAYNAK : https://www.yazilimkodlama.com/programlama/c-sql-server-veritabani-baglantisi-select-insert-update-delete/
         }
 
         private void label5_Click(object sender, EventArgs e)

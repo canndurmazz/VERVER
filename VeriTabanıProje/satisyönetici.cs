@@ -68,7 +68,10 @@ namespace VeriTabanıProje
                 dAdapterr.Fill(dTablee);
             }
             dataGridView4.DataSource = dTablee;
-            
+
+
+       //KAYNAK https://www.yazilimkodlama.com/programlama/c-sql-server-veritabani-baglantisi-select-insert-update-delete/
+
 
         }
         public DataTable Ara(string ara)
@@ -161,7 +164,7 @@ namespace VeriTabanıProje
         {
             Araaaa("select * from personel where departman_id =1 and personel_ad like '" + textBox4.Text + "%'");
         }
-
+         /*KAYNAK : https://www.youtube.com/watch?v=me1FB6OpCeI*/
         private void button1_Click(object sender, EventArgs e)
         {
             siparis siparis = new siparis();
