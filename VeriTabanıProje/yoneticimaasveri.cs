@@ -137,5 +137,10 @@ namespace VeriTabanıProje
         {
             mouseDown = false;
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

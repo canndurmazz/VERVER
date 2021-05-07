@@ -40,6 +40,7 @@
             this.textpersonel = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -48,7 +49,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(16, 27);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1007, 82);
@@ -58,7 +59,7 @@
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(16, 154);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.Size = new System.Drawing.Size(1007, 82);
@@ -90,7 +91,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(139, 300);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(160, 24);
             this.comboBox1.TabIndex = 5;
@@ -132,7 +133,7 @@
             // textmaas
             // 
             this.textmaas.Location = new System.Drawing.Point(841, 300);
-            this.textmaas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textmaas.Margin = new System.Windows.Forms.Padding(4);
             this.textmaas.Name = "textmaas";
             this.textmaas.Size = new System.Drawing.Size(132, 22);
             this.textmaas.TabIndex = 9;
@@ -140,7 +141,7 @@
             // textpersonel
             // 
             this.textpersonel.Location = new System.Drawing.Point(527, 300);
-            this.textpersonel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textpersonel.Margin = new System.Windows.Forms.Padding(4);
             this.textpersonel.Name = "textpersonel";
             this.textpersonel.Size = new System.Drawing.Size(132, 22);
             this.textpersonel.TabIndex = 10;
@@ -169,12 +170,25 @@
             this.label21.Text = "<";
             this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(939, 1);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(23, 25);
+            this.label6.TabIndex = 61;
+            this.label6.Text = "_";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // yoneticimaasveri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1039, 416);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.textpersonel);
@@ -188,7 +202,7 @@
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "yoneticimaasveri";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "yoneticimaasveri";
@@ -217,5 +231,6 @@
         private System.Windows.Forms.TextBox textpersonel;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label6;
     }
 }

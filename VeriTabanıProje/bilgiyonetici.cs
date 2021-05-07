@@ -122,5 +122,10 @@ namespace VeriTabanıProje
             kullaniciekle kullaniciekle = new kullaniciekle();
             kullaniciekle.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

@@ -66,6 +66,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,7 +84,7 @@
             // textzamoran
             // 
             this.textzamoran.Location = new System.Drawing.Point(180, 43);
-            this.textzamoran.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textzamoran.Margin = new System.Windows.Forms.Padding(4);
             this.textzamoran.Name = "textzamoran";
             this.textzamoran.Size = new System.Drawing.Size(65, 22);
             this.textzamoran.TabIndex = 1;
@@ -105,7 +106,7 @@
             this.buttonzamonay.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonzamonay.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonzamonay.Location = new System.Drawing.Point(392, 39);
-            this.buttonzamonay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonzamonay.Margin = new System.Windows.Forms.Padding(4);
             this.buttonzamonay.Name = "buttonzamonay";
             this.buttonzamonay.Size = new System.Drawing.Size(59, 31);
             this.buttonzamonay.TabIndex = 27;
@@ -117,7 +118,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(461, 33);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(543, 396);
@@ -130,7 +131,7 @@
             this.buttoninidronay.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttoninidronay.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttoninidronay.Location = new System.Drawing.Point(389, 95);
-            this.buttoninidronay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttoninidronay.Margin = new System.Windows.Forms.Padding(4);
             this.buttoninidronay.Name = "buttoninidronay";
             this.buttoninidronay.Size = new System.Drawing.Size(61, 31);
             this.buttoninidronay.TabIndex = 32;
@@ -153,7 +154,7 @@
             // textindirimoran
             // 
             this.textindirimoran.Location = new System.Drawing.Point(183, 98);
-            this.textindirimoran.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textindirimoran.Margin = new System.Windows.Forms.Padding(4);
             this.textindirimoran.Name = "textindirimoran";
             this.textindirimoran.Size = new System.Drawing.Size(65, 22);
             this.textindirimoran.TabIndex = 30;
@@ -183,7 +184,7 @@
             // textdepindir
             // 
             this.textdepindir.Location = new System.Drawing.Point(237, 219);
-            this.textdepindir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textdepindir.Margin = new System.Windows.Forms.Padding(4);
             this.textdepindir.Name = "textdepindir";
             this.textdepindir.Size = new System.Drawing.Size(65, 22);
             this.textdepindir.TabIndex = 37;
@@ -202,7 +203,7 @@
             // textdepzam
             // 
             this.textdepzam.Location = new System.Drawing.Point(237, 158);
-            this.textdepzam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textdepzam.Margin = new System.Windows.Forms.Padding(4);
             this.textdepzam.Name = "textdepzam";
             this.textdepzam.Size = new System.Drawing.Size(65, 22);
             this.textdepzam.TabIndex = 34;
@@ -222,7 +223,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(21, 158);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(89, 24);
             this.comboBox1.TabIndex = 39;
@@ -231,7 +232,7 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(21, 219);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(89, 24);
             this.comboBox2.TabIndex = 40;
@@ -251,7 +252,7 @@
             // 
             this.textid.Enabled = false;
             this.textid.Location = new System.Drawing.Point(67, 298);
-            this.textid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textid.Margin = new System.Windows.Forms.Padding(4);
             this.textid.Name = "textid";
             this.textid.Size = new System.Drawing.Size(132, 22);
             this.textid.TabIndex = 42;
@@ -260,7 +261,7 @@
             // 
             this.textad.Enabled = false;
             this.textad.Location = new System.Drawing.Point(67, 342);
-            this.textad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textad.Margin = new System.Windows.Forms.Padding(4);
             this.textad.Name = "textad";
             this.textad.Size = new System.Drawing.Size(132, 22);
             this.textad.TabIndex = 43;
@@ -269,7 +270,7 @@
             // 
             this.textsoyad.Enabled = false;
             this.textsoyad.Location = new System.Drawing.Point(299, 342);
-            this.textsoyad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textsoyad.Margin = new System.Windows.Forms.Padding(4);
             this.textsoyad.Name = "textsoyad";
             this.textsoyad.Size = new System.Drawing.Size(132, 22);
             this.textsoyad.TabIndex = 44;
@@ -277,7 +278,7 @@
             // textmaas
             // 
             this.textmaas.Location = new System.Drawing.Point(116, 409);
-            this.textmaas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textmaas.Margin = new System.Windows.Forms.Padding(4);
             this.textmaas.Name = "textmaas";
             this.textmaas.Size = new System.Drawing.Size(132, 22);
             this.textmaas.TabIndex = 45;
@@ -288,7 +289,7 @@
             this.buttondepindir.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttondepindir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttondepindir.Location = new System.Drawing.Point(392, 214);
-            this.buttondepindir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttondepindir.Margin = new System.Windows.Forms.Padding(4);
             this.buttondepindir.Name = "buttondepindir";
             this.buttondepindir.Size = new System.Drawing.Size(61, 31);
             this.buttondepindir.TabIndex = 47;
@@ -302,7 +303,7 @@
             this.buttondepzam.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttondepzam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttondepzam.Location = new System.Drawing.Point(389, 153);
-            this.buttondepzam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttondepzam.Margin = new System.Windows.Forms.Padding(4);
             this.buttondepzam.Name = "buttondepzam";
             this.buttondepzam.Size = new System.Drawing.Size(61, 31);
             this.buttondepzam.TabIndex = 46;
@@ -316,7 +317,7 @@
             this.buttonmaasduzenle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonmaasduzenle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonmaasduzenle.Location = new System.Drawing.Point(267, 405);
-            this.buttonmaasduzenle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonmaasduzenle.Margin = new System.Windows.Forms.Padding(4);
             this.buttonmaasduzenle.Name = "buttonmaasduzenle";
             this.buttonmaasduzenle.Size = new System.Drawing.Size(124, 31);
             this.buttonmaasduzenle.TabIndex = 48;
@@ -445,7 +446,7 @@
             // 
             this.textdep.Enabled = false;
             this.textdep.Location = new System.Drawing.Point(299, 298);
-            this.textdep.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textdep.Margin = new System.Windows.Forms.Padding(4);
             this.textdep.Name = "textdep";
             this.textdep.Size = new System.Drawing.Size(132, 22);
             this.textdep.TabIndex = 55;
@@ -485,12 +486,25 @@
             this.label21.Text = "<";
             this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label22.Location = new System.Drawing.Point(932, 1);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(23, 25);
+            this.label22.TabIndex = 59;
+            this.label22.Text = "_";
+            this.label22.Click += new System.EventHandler(this.label22_Click);
+            // 
             // yoneticimaaszam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1020, 444);
+            this.Controls.Add(this.label22);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label19);
@@ -530,7 +544,7 @@
             this.Controls.Add(this.textzamoran);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "yoneticimaaszam";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "yoneticimaaszam";
@@ -584,5 +598,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
     }
 }

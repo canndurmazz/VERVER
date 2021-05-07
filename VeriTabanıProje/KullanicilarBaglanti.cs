@@ -11,14 +11,14 @@ namespace VeriTabanıProje
     class KullanicilarBaglanti
     {
         
-        public Kullanicilar getKullanicilar(string kullanici_ad, string kullanici_sifre)
+        public Kullanicilar getKullanicilar(string kullanici_ad, string kullanici_sifre,string yetki_ad)
         {
 
             Kullanicilar kullanici = null;
             //Departman şartını bağla
             using (var conn = Database.GetConnection())
             {
-                var command = new SqlCommand("Select * from Kullanicilar where kullanici_ad='" + kullanici_ad + "' and kullanici_sifre = '" + kullanici_sifre + "'");
+                var command = new SqlCommand("Select yetki_id from kullanicilar where (kullanici_ad='" + kullanici_ad + "'and kullanici_sifre='" + kullanici_sifre + "') and  yetki_id =(select yetki_id from yetki where yetki_ad='" + yetki_ad + "') and kullanici_id in (select personel_id from personel where departman_id=(select departman_id from departman where departman_ad='Üretim ve Planlama'))");
 
                 command.Connection = conn;
                 conn.Open();
@@ -27,9 +27,8 @@ namespace VeriTabanıProje
                     while (reader.Read())
                     {
                         kullanici = new Kullanicilar();
-                        kullanici.kullanici_ad = reader.GetString(1);
-                        kullanici.kullanici_sifre = reader.GetString(2);
-                        kullanici.yetki_id = reader.GetInt32(3);
+                        
+                        kullanici.yetki_id = reader.GetInt32(0);
                     }
                     
                 }
@@ -106,13 +105,52 @@ namespace VeriTabanıProje
             return dt;
         }
 
-        public DataTable getUretimSiparisGuncelle(string uretim_adet,string urun_id)
+        public DataTable getUretimSiparisGuncelle(string uretim_adet,string urun_id,string uretim_id)
         {
             DataTable dt = null;
             using (var conn = Database.GetConnection())
             {
-                var command = new SqlCommand("update Uretim set uretim_adet='"+uretim_adet+"' where urun_id='"+urun_id+"'");
-                
+                var command = new SqlCommand("update Uretim set uretim_adet='"+uretim_adet+"' where urun_id='"+urun_id+"' and uretim_id = '"+uretim_id+"'");
+
+
+
+                command.Connection = conn;
+                conn.Open();
+                SqlDataAdapter da = new SqlDataAdapter(command);
+                dt = new DataTable();
+                da.Fill(dt);
+                conn.Close();
+            }
+            return dt;
+
+        }
+        public DataTable getUretimSiparisGirisGuncelle(string uretim_adet, string urun_id)
+        {
+            DataTable dt = null;
+            using (var conn = Database.GetConnection())
+            {
+                var command = new SqlCommand("update Uretim set uretim_adet='" + uretim_adet + " where urun_id='" + urun_id + "'");
+
+
+
+                command.Connection = conn;
+                conn.Open();
+                SqlDataAdapter da = new SqlDataAdapter(command);
+                dt = new DataTable();
+                da.Fill(dt);
+                conn.Close();
+            }
+            return dt;
+
+        }
+
+        public DataTable getUretimSiparisEkle(string uretim_adet, string urun_id)
+        {
+            DataTable dt = null;
+            using (var conn = Database.GetConnection())
+            {
+                var command = new SqlCommand("insert into Uretim  (uretim_adet,urun_id) values ('" + uretim_adet + "' ,'" + urun_id + "')");
+
 
                 command.Connection = conn;
                 conn.Open();
@@ -147,7 +185,7 @@ namespace VeriTabanıProje
             DataTable dt = null;
             using (var conn = Database.GetConnection())
             {
-                var command = new SqlCommand("select  urun_id,uretim_adet,uretim_tarihi from Uretim");
+                var command = new SqlCommand("select * from Uretim");
 
                 command.Connection = conn;
                 conn.Open();
@@ -203,7 +241,7 @@ namespace VeriTabanıProje
             DataTable dt = null;
             using (var conn = Database.GetConnection())
             {
-                var command = new SqlCommand("update Urun set urun_miktar = urun_miktar + "+fazlaUrun+" where urun_id="+urun_id);
+                var command = new SqlCommand("update Urun set urun_miktar="+fazlaUrun+" where urun_id='"+urun_id+"'");
 
                 command.Connection = conn;
                 conn.Open();

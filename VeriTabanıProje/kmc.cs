@@ -42,7 +42,9 @@ namespace VeriTabanıProje
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            uretimsifre uretimsifre = new uretimsifre();
+            uretimsifre.Show();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)

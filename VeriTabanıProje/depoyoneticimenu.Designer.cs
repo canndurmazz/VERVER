@@ -44,6 +44,7 @@
             this.btnstokdurum = new System.Windows.Forms.Button();
             this.labelislem = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,7 +78,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(205, 437);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 36);
             this.button2.TabIndex = 65;
@@ -91,7 +92,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(49, 437);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(148, 36);
             this.button1.TabIndex = 64;
@@ -173,7 +174,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(445, 31);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(511, 442);
@@ -185,7 +186,7 @@
             this.buttonTeslim.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonTeslim.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonTeslim.Location = new System.Drawing.Point(309, 90);
-            this.buttonTeslim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonTeslim.Margin = new System.Windows.Forms.Padding(4);
             this.buttonTeslim.Name = "buttonTeslim";
             this.buttonTeslim.Size = new System.Drawing.Size(115, 128);
             this.buttonTeslim.TabIndex = 70;
@@ -199,7 +200,7 @@
             this.buttonKargo.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonKargo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonKargo.Location = new System.Drawing.Point(157, 90);
-            this.buttonKargo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonKargo.Margin = new System.Windows.Forms.Padding(4);
             this.buttonKargo.Name = "buttonKargo";
             this.buttonKargo.Size = new System.Drawing.Size(119, 128);
             this.buttonKargo.TabIndex = 69;
@@ -213,7 +214,7 @@
             this.btnstokdurum.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnstokdurum.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnstokdurum.Location = new System.Drawing.Point(16, 90);
-            this.btnstokdurum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnstokdurum.Margin = new System.Windows.Forms.Padding(4);
             this.btnstokdurum.Name = "btnstokdurum";
             this.btnstokdurum.Size = new System.Drawing.Size(115, 128);
             this.btnstokdurum.TabIndex = 68;
@@ -244,12 +245,25 @@
             this.label4.TabIndex = 71;
             this.label4.Text = "İşleme Alınan:";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(870, 2);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(23, 25);
+            this.label3.TabIndex = 73;
+            this.label3.Text = "_";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // depoyoneticimenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(968, 475);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.labelislem);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.buttonTeslim);
@@ -267,7 +281,7 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "depoyoneticimenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "depoyoneticimenu";
@@ -298,5 +312,6 @@
         private System.Windows.Forms.Button btnstokdurum;
         private System.Windows.Forms.Label labelislem;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
     }
 }

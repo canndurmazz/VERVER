@@ -43,6 +43,7 @@ namespace VeriTabanıProje
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -143,11 +144,11 @@ namespace VeriTabanıProje
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(921, 4);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(20, 20);
+            this.label3.Size = new System.Drawing.Size(26, 25);
             this.label3.TabIndex = 33;
             this.label3.Text = "X";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -155,11 +156,11 @@ namespace VeriTabanıProje
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Location = new System.Drawing.Point(896, 4);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(19, 20);
+            this.label4.Size = new System.Drawing.Size(24, 25);
             this.label4.TabIndex = 34;
             this.label4.Text = "<";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -184,7 +185,7 @@ namespace VeriTabanıProje
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(911, 168);
+            this.dataGridView1.Size = new System.Drawing.Size(931, 168);
             this.dataGridView1.TabIndex = 49;
             // 
             // dataGridView3
@@ -198,12 +199,25 @@ namespace VeriTabanıProje
             this.dataGridView3.Size = new System.Drawing.Size(927, 168);
             this.dataGridView3.TabIndex = 50;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(867, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(23, 25);
+            this.label1.TabIndex = 56;
+            this.label1.Text = "_";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // satinyonetici
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(951, 855);
+            this.ClientSize = new System.Drawing.Size(951, 854);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button4);
@@ -250,5 +264,6 @@ namespace VeriTabanıProje
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.Label label1;
     }
 }

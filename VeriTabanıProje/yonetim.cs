@@ -25,14 +25,14 @@ namespace VeriTabanıProje
         private void button7_Click(object sender, EventArgs e)
         {
             yoneticimaaszam ymz = new yoneticimaaszam();
-            this.Hide();
+           
             ymz.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             yoneticimaasveri ymv = new yoneticimaasveri();
-            this.Hide();
+           
             ymv.Show();
         }
 
@@ -89,14 +89,14 @@ namespace VeriTabanıProje
         {
             finansGelirGider finansGelirGider = new finansGelirGider();
             finansGelirGider.Show();
-            this.Hide();
+           
         }
 
         private void button5_Click_1(object sender, EventArgs e)
         {
             finansGelirGider finansGelirGider = new finansGelirGider();
             finansGelirGider.Show();
-            this.Hide();
+           
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -109,6 +109,45 @@ namespace VeriTabanıProje
         {
             istek istek = new istek();
             istek.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            satisyönetici satisyönetici = new satisyönetici();
+            satisyönetici.Show();
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            satinyonetici satinyonetici = new satinyonetici();
+            satinyonetici.Show();
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            uretimyonetici uretimyonetici = new uretimyonetici();
+            uretimyonetici.Show();
+           
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            ikyoneticimenu ikyoneticimenu = new ikyoneticimenu();
+            ikyoneticimenu.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            bilgiyonetici bilgiyonetici = new bilgiyonetici();
+            bilgiyonetici.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            depoyoneticimenu depoyoneticimenu = new depoyoneticimenu();
+            depoyoneticimenu.Show();
         }
     }
 }

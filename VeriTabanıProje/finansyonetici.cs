@@ -249,6 +249,11 @@ namespace VeriTabanıProje
         {
             Ara5("Select * from Adres where adres_id in(select adres_id from Musteri and ilce like'" + textBox5.Text + "%'");
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 
 }
