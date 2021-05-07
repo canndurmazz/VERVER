@@ -83,5 +83,17 @@ namespace VeriTabanıProje
             uretimyonetimsifre.Show();
             this.Hide();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            kmc kmc = new kmc();
+            kmc.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+            this.Close();
+        }
     }
 }

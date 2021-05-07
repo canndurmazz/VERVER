@@ -106,5 +106,12 @@ namespace VeriTabanıProje
         {
             mouseDown = false;
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            kmc kmc = new kmc();
+            kmc.Show();
+            this.Hide();
+        }
     }
 }

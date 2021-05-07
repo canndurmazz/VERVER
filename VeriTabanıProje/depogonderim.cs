@@ -119,5 +119,10 @@ namespace VeriTabanıProje
                 this.Update();
             }
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

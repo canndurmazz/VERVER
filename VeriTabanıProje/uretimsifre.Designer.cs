@@ -62,6 +62,7 @@ namespace VeriTabanıProje
             this.label4.Size = new System.Drawing.Size(19, 20);
             this.label4.TabIndex = 42;
             this.label4.Text = "<";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -73,6 +74,7 @@ namespace VeriTabanıProje
             this.label3.Size = new System.Drawing.Size(20, 20);
             this.label3.TabIndex = 41;
             this.label3.Text = "X";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
             // 

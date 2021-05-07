@@ -65,7 +65,7 @@
             this.buttonKargo.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonKargo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonKargo.Location = new System.Drawing.Point(180, 43);
-            this.buttonKargo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonKargo.Margin = new System.Windows.Forms.Padding(4);
             this.buttonKargo.Name = "buttonKargo";
             this.buttonKargo.Size = new System.Drawing.Size(132, 260);
             this.buttonKargo.TabIndex = 26;
@@ -79,7 +79,7 @@
             this.btnstokdurum.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnstokdurum.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnstokdurum.Location = new System.Drawing.Point(16, 43);
-            this.btnstokdurum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnstokdurum.Margin = new System.Windows.Forms.Padding(4);
             this.btnstokdurum.Name = "btnstokdurum";
             this.btnstokdurum.Size = new System.Drawing.Size(128, 260);
             this.btnstokdurum.TabIndex = 25;
@@ -93,7 +93,7 @@
             this.buttonTeslim.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonTeslim.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonTeslim.Location = new System.Drawing.Point(348, 43);
-            this.buttonTeslim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonTeslim.Margin = new System.Windows.Forms.Padding(4);
             this.buttonTeslim.Name = "buttonTeslim";
             this.buttonTeslim.Size = new System.Drawing.Size(128, 260);
             this.buttonTeslim.TabIndex = 29;
@@ -113,7 +113,7 @@
             this.Controls.Add(this.buttonKargo);
             this.Controls.Add(this.btnstokdurum);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "depomenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "depomenu";
