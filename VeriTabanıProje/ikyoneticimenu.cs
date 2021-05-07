@@ -133,5 +133,18 @@ namespace VeriTabanıProje
         {
             this.Hide();
         }
+
+        private void btnPersonel_Click(object sender, EventArgs e)
+        {
+            ikPersonelislem ikPersonelislem = new ikPersonelislem();
+            ikPersonelislem.Show();
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ikDepartmanislem ikDepartmanislem = new ikDepartmanislem();
+            ikDepartmanislem.Show();
+        }
     }
 }

@@ -459,7 +459,8 @@ namespace VeriTabanıProje
 
         private void label22_Click(object sender, EventArgs e)
         {
-            
+            ikMenu ikMenu = new ikMenu();
+            ikMenu.Show();
             this.Hide();
         }
 

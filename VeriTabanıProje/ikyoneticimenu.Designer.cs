@@ -30,7 +30,6 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label13 = new System.Windows.Forms.Label();
-            this.btnEkle = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -41,6 +40,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnPersonel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,20 +66,6 @@
             this.label13.Size = new System.Drawing.Size(195, 17);
             this.label13.TabIndex = 26;
             this.label13.Text = "İnsan Kaynakları Personelleri:";
-            // 
-            // btnEkle
-            // 
-            this.btnEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEkle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnEkle.Location = new System.Drawing.Point(16, 76);
-            this.btnEkle.Margin = new System.Windows.Forms.Padding(4);
-            this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(405, 180);
-            this.btnEkle.TabIndex = 43;
-            this.btnEkle.Text = "İşlem Menüsü";
-            this.btnEkle.UseVisualStyleBackColor = true;
-            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // label1
             // 
@@ -202,12 +189,42 @@
             this.label3.Text = "_";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // button3
+            // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Location = new System.Drawing.Point(256, 91);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(132, 145);
+            this.button3.TabIndex = 58;
+            this.button3.Text = "DEPARTMAN İŞLEMLERİ";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btnPersonel
+            // 
+            this.btnPersonel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPersonel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnPersonel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPersonel.Location = new System.Drawing.Point(38, 91);
+            this.btnPersonel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPersonel.Name = "btnPersonel";
+            this.btnPersonel.Size = new System.Drawing.Size(128, 145);
+            this.btnPersonel.TabIndex = 57;
+            this.btnPersonel.Text = "PERSONEL İŞLEMLERİ";
+            this.btnPersonel.UseVisualStyleBackColor = true;
+            this.btnPersonel.Click += new System.EventHandler(this.btnPersonel_Click);
+            // 
             // ikyoneticimenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(963, 487);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnPersonel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -218,7 +235,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -240,7 +256,6 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button btnEkle;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
@@ -251,5 +266,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnPersonel;
     }
 }

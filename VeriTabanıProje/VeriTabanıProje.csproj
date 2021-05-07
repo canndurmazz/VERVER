@@ -70,7 +70,6 @@
     <Compile Include="bilgiyoneticisifre.Designer.cs">
       <DependentUpon>bilgiyoneticisifre.cs</DependentUpon>
     </Compile>
-    <Compile Include="Database.cs" />
     <Compile Include="depogonderim.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -239,8 +238,6 @@
     <Compile Include="kullaniciekle.Designer.cs">
       <DependentUpon>kullaniciekle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kullanicilar.cs" />
-    <Compile Include="KullanicilarBaglanti.cs" />
     <Compile Include="satinalma.cs">
       <SubType>Form</SubType>
     </Compile>
