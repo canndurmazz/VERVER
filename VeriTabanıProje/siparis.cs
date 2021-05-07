@@ -14,6 +14,7 @@ namespace VeriTabanıProje
 {
     public partial class siparis : Form
     {
+        Database.GetConnection();
         SqlConnection baglanti = new SqlConnection("Data Source=CANPC\\SQLEXPRESS;Initial Catalog=fabrikavt;Integrated Security=True;MultipleActiveResultSets=True;");
         public siparis()
         {

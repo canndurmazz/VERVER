@@ -46,11 +46,90 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bilgimesaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bilgimesaj.Designer.cs">
+      <DependentUpon>bilgimesaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bilgisifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bilgisifre.Designer.cs">
+      <DependentUpon>bilgisifre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bilgiyonetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bilgiyonetici.Designer.cs">
+      <DependentUpon>bilgiyonetici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bilgiyoneticisifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bilgiyoneticisifre.Designer.cs">
+      <DependentUpon>bilgiyoneticisifre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="depogonderim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depogonderim.Designer.cs">
+      <DependentUpon>depogonderim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="depogonderimteslim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depogonderimteslim.Designer.cs">
+      <DependentUpon>depogonderimteslim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="depomenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depomenu.Designer.cs">
+      <DependentUpon>depomenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="depomesaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depomesaj.Designer.cs">
+      <DependentUpon>depomesaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deposifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deposifre.Designer.cs">
+      <DependentUpon>deposifre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="depostokdurum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depostokdurum.Designer.cs">
+      <DependentUpon>depostokdurum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="depoyoneticimenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depoyoneticimenu.Designer.cs">
+      <DependentUpon>depoyoneticimenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="depoyoneticisifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depoyoneticisifre.Designer.cs">
+      <DependentUpon>depoyoneticisifre.cs</DependentUpon>
+    </Compile>
     <Compile Include="finans.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="finans.Designer.cs">
       <DependentUpon>finans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finansGelirGider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finansGelirGider.Designer.cs">
+      <DependentUpon>finansGelirGider.cs</DependentUpon>
     </Compile>
     <Compile Include="finansmesaj.cs">
       <SubType>Form</SubType>
@@ -154,6 +233,8 @@
     <Compile Include="kullaniciekle.Designer.cs">
       <DependentUpon>kullaniciekle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kullanicilar.cs" />
+    <Compile Include="KullanicilarBaglanti.cs" />
     <Compile Include="satinalma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -246,8 +327,77 @@
     <Compile Include="yenitedarikci.Designer.cs">
       <DependentUpon>yenitedarikci.cs</DependentUpon>
     </Compile>
+    <Compile Include="yoneticimaasveri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yoneticimaasveri.Designer.cs">
+      <DependentUpon>yoneticimaasveri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yoneticimaaszam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yoneticimaaszam.Designer.cs">
+      <DependentUpon>yoneticimaaszam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yonetim.Designer.cs">
+      <DependentUpon>yonetim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yonetimgiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yonetimgiris.Designer.cs">
+      <DependentUpon>yonetimgiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yonetimmesaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yonetimmesaj.Designer.cs">
+      <DependentUpon>yonetimmesaj.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bilgimesaj.resx">
+      <DependentUpon>bilgimesaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bilgisifre.resx">
+      <DependentUpon>bilgisifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bilgiyonetici.resx">
+      <DependentUpon>bilgiyonetici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bilgiyoneticisifre.resx">
+      <DependentUpon>bilgiyoneticisifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depogonderim.resx">
+      <DependentUpon>depogonderim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depogonderimteslim.resx">
+      <DependentUpon>depogonderimteslim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depomenu.resx">
+      <DependentUpon>depomenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depomesaj.resx">
+      <DependentUpon>depomesaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deposifre.resx">
+      <DependentUpon>deposifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depostokdurum.resx">
+      <DependentUpon>depostokdurum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depoyoneticimenu.resx">
+      <DependentUpon>depoyoneticimenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depoyoneticisifre.resx">
+      <DependentUpon>depoyoneticisifre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="finans.resx">
       <DependentUpon>finans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finansGelirGider.resx">
+      <DependentUpon>finansGelirGider.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="finansmesaj.resx">
       <DependentUpon>finansmesaj.cs</DependentUpon>
@@ -353,6 +503,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="yenitedarikci.resx">
       <DependentUpon>yenitedarikci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yoneticimaasveri.resx">
+      <DependentUpon>yoneticimaasveri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yoneticimaaszam.resx">
+      <DependentUpon>yoneticimaaszam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yonetim.resx">
+      <DependentUpon>yonetim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yonetimgiris.resx">
+      <DependentUpon>yonetimgiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yonetimmesaj.resx">
+      <DependentUpon>yonetimmesaj.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

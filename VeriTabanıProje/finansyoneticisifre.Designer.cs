@@ -78,6 +78,7 @@ namespace VeriTabanıProje
             // 
             this.kullanici_sifre.Location = new System.Drawing.Point(76, 66);
             this.kullanici_sifre.Name = "kullanici_sifre";
+            this.kullanici_sifre.PasswordChar = '*';
             this.kullanici_sifre.Size = new System.Drawing.Size(146, 22);
             this.kullanici_sifre.TabIndex = 21;
             // 
@@ -124,6 +125,7 @@ namespace VeriTabanıProje
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "finansyoneticisifre";
             this.Text = "finansyoneticisifre";
+            this.Load += new System.EventHandler(this.finansyoneticisifre_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.finansyoneticisifre_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.finansyoneticisifre_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.finansyoneticisifre_MouseUp);

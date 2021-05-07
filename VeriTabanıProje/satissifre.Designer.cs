@@ -57,6 +57,7 @@ namespace VeriTabanıProje
             this.kullanici_sifre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.kullanici_sifre.Location = new System.Drawing.Point(76, 59);
             this.kullanici_sifre.Name = "kullanici_sifre";
+            this.kullanici_sifre.PasswordChar = '*';
             this.kullanici_sifre.Size = new System.Drawing.Size(146, 22);
             this.kullanici_sifre.TabIndex = 15;
             // 

@@ -95,6 +95,7 @@
             this.kullaniciSifre.Location = new System.Drawing.Point(84, 62);
             this.kullaniciSifre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.kullaniciSifre.Name = "kullaniciSifre";
+            this.kullaniciSifre.PasswordChar = '*';
             this.kullaniciSifre.Size = new System.Drawing.Size(145, 22);
             this.kullaniciSifre.TabIndex = 23;
             this.kullaniciSifre.TextChanged += new System.EventHandler(this.kullaniciSifre_TextChanged);

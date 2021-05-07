@@ -41,7 +41,8 @@ namespace VeriTabanıProje
         }
 
         private void button3_Click(object sender, EventArgs e)
-        {           
+        {
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -69,7 +70,9 @@ namespace VeriTabanıProje
 
         private void button6_Click(object sender, EventArgs e)
         {
-           
+            yonetimgiris yonetimgiris = new yonetimgiris();
+            yonetimgiris.Show();
+            this.Hide();
         
         }
 
@@ -180,6 +183,20 @@ namespace VeriTabanıProje
         {
             mouseDown = true;
             lastLocation = e.Location;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            bilgisifre bilgisifre = new bilgisifre();
+            bilgisifre.Show();
+            this.Hide();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            deposifre deposifre = new deposifre();
+            deposifre.Show();
+            this.Hide();
         }
     }
 }

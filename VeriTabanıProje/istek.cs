@@ -236,7 +236,32 @@ namespace VeriTabanıProje
                 }
                 baglanti.Close();
             }
+            if (istekcombo.SelectedIndex == 7)
+            {
+                baglanti.Open();
 
+                try
+                {
+                    if (baglanti.State == ConnectionState.Closed)
+                        baglanti.Open();
+                    string kayit = "insert into Istek(ileti,departman_ad,departman_id) values (@ileti,@departman_ad,@departman_id)";
+                    SqlCommand komut = new SqlCommand(kayit, baglanti);
+                    komut.Parameters.AddWithValue("@ileti", ileti.Text);
+                    komut.Parameters.AddWithValue("@departman_id", 8);
+                    komut.Parameters.AddWithValue("@departman_ad", istekcombo.Text);
+                    komut.ExecuteNonQuery();
+                    baglanti.Close();
+                    MessageBox.Show("Mesaj Başarıyla Gönderildi !");
+
+
+                    this.Hide();
+                }
+                catch (Exception hata)
+                {
+                    MessageBox.Show("İşlem Sırasında Hata Oluştu." + hata.Message);
+                }
+                baglanti.Close();
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -276,7 +301,9 @@ namespace VeriTabanıProje
 
         private void istekcombo_SelectedValueChanged(object sender, EventArgs e)
         {
-          
+           
+            //string a = Convert.ToString(komut.ExecuteScalar());
+            //stok.Text = a;
         }
     }
 }

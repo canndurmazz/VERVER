@@ -274,8 +274,9 @@ namespace VeriTabanıProje
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ikmesaj ikmesaj = new ikmesaj();
-            ikmesaj.Show();
+            bilgimesaj bilgimesaj = new bilgimesaj();
+            bilgimesaj.Show();
+          
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -298,8 +299,8 @@ namespace VeriTabanıProje
 
         private void label8_Click(object sender, EventArgs e)
         {
-            ikMenu ikMenu = new ikMenu();
-            ikMenu.Show();
+            kmc kmc = new kmc();
+            kmc.Show();
             this.Hide();
         }
 

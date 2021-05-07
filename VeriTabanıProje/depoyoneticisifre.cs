@@ -13,12 +13,18 @@ using System.Collections;
 
 namespace VeriTabanıProje
 {
-    public partial class finansyoneticisifre : Form
+    public partial class depoyoneticisifre : Form
     {
         SqlConnection baglanti = new SqlConnection("Data Source=CANPC\\SQLEXPRESS;Initial Catalog=fabrikavt;Integrated Security=True;MultipleActiveResultSets=True;");
-        public finansyoneticisifre()
+        public depoyoneticisifre()
         {
             InitializeComponent();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+            this.Close();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -26,12 +32,6 @@ namespace VeriTabanıProje
             kmc kmc = new kmc();
             kmc.Show();
             this.Hide();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -50,7 +50,7 @@ namespace VeriTabanıProje
                 try
                 {
                     SqlCommand al = new SqlCommand("Select kullanici_ad,kullanici_sifre from kullanicilar where yetki_id=(select yetki_id from yetki where yetki_ad='Yönetici') and kullanici_id in" +
-                        " (select personel_id from personel where departman_id=(select departman_id from departman where departman_ad='Finans'))", baglanti);
+                        " (select personel_id from personel where departman_id=(select departman_id from departman where departman_ad='Depo'))", baglanti);
                     al.Parameters.Add("@kullanici_ad", SqlDbType.VarChar, 50).Value = kullanici_ad.Text;
                     al.Parameters.Add("@kullanici_sifre", SqlDbType.VarChar, 50).Value = kullanici_sifre.Text;
 
@@ -69,8 +69,8 @@ namespace VeriTabanıProje
                             string sifre = (oku["kullanici_sifre"].ToString());
                             if (ad == kullanici_ad.Text && sifre == kullanici_sifre.Text)
                             {
-                                finansyonetici finansyonetici = new finansyonetici();
-                                finansyonetici.Show();
+                                depoyoneticimenu depoyoneticimenu = new depoyoneticimenu();
+                                depoyoneticimenu.Show();
                                 this.Hide();
                             }
                             else
@@ -92,14 +92,14 @@ namespace VeriTabanıProje
         }
         private bool mouseDown;
         private Point lastLocation;
-
-        private void finansyoneticisifre_MouseDown(object sender, MouseEventArgs e)
+        private void depoyoneticisifre_MouseDown(object sender, MouseEventArgs e)
         {
+
             mouseDown = true;
             lastLocation = e.Location;
         }
 
-        private void finansyoneticisifre_MouseMove(object sender, MouseEventArgs e)
+        private void depoyoneticisifre_MouseMove(object sender, MouseEventArgs e)
         {
             if (mouseDown)
             {
@@ -110,14 +110,9 @@ namespace VeriTabanıProje
             }
         }
 
-        private void finansyoneticisifre_MouseUp(object sender, MouseEventArgs e)
+        private void depoyoneticisifre_MouseUp(object sender, MouseEventArgs e)
         {
             mouseDown = false;
-        }
-
-        private void finansyoneticisifre_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
