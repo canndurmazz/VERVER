@@ -257,7 +257,7 @@ namespace VeriTabanıProje
                 dr2 = komut2.ExecuteReader();
                 while (dr2.Read())
                 {
-                    string sorgu4 = "update kullanicilar set yetki_id=3 where kullanici_id=@perid";
+                    string sorgu4 = "update kullanicilar set yetki_id=1 where kullanici_id=@perid";
                     SqlCommand cmd4 = new SqlCommand(sorgu4, baglanti);
                     cmd4.Parameters.AddWithValue("@perid", dr2["personel_id"]);
                     cmd4.ExecuteNonQuery();

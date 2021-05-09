@@ -60,6 +60,7 @@ namespace VeriTabanıProje
             this.label3.Size = new System.Drawing.Size(20, 20);
             this.label3.TabIndex = 30;
             this.label3.Text = "X";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
             // 

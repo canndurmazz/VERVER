@@ -36,13 +36,13 @@ namespace VeriTabanıProje
 
         private void satisyönetici_Load(object sender, EventArgs e)
         {
-            DataTable dTableeee = new DataTable();
+               DataTable dTableeee = new DataTable();
 
             SqlDataAdapter dAdapterrrr = new SqlDataAdapter("Select * from Urun", baglanti);
             {
                 dAdapterrrr.Fill(dTableeee);
             }
-            dataGridView3.DataSource = dTableeee;
+            dataGridView4.DataSource = dTableeee;
 
 
             DataTable dTableee = new DataTable();
@@ -67,7 +67,7 @@ namespace VeriTabanıProje
             {
                 dAdapterr.Fill(dTablee);
             }
-            dataGridView4.DataSource = dTablee;
+            dataGridView3.DataSource = dTablee;
 
 
        //KAYNAK https://www.yazilimkodlama.com/programlama/c-sql-server-veritabani-baglantisi-select-insert-update-delete/
@@ -162,7 +162,11 @@ namespace VeriTabanıProje
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            Araaaa("select * from personel where departman_id =1 and personel_ad like '" + textBox4.Text + "%'");
+             Araaa("select * from personel where departman_id =1 and personel_ad like'" + textBox3.Text + "%'");
+        } 
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+           Araaaa( "select * from Urun where urun_ad like '" + textBox4.Text + "%'");
         }
          /*KAYNAK : https://www.youtube.com/watch?v=me1FB6OpCeI*/
         private void button1_Click(object sender, EventArgs e)
@@ -184,10 +188,7 @@ namespace VeriTabanıProje
             yenimüsteri.Show();
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-            Araaaa("select * from Urun where urun_ad like '" + textBox4.Text + "%'");
-        }
+       
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

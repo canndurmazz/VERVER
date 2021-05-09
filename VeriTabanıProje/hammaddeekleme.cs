@@ -105,10 +105,10 @@ namespace VeriTabanıProje
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textad = null;
-            textbrfiyat = null;
-            textmiktar = null;
-            textaciklama = null;
+            textad.Text = null;
+            textbrfiyat.Text =null;
+            textmiktar.Text =null;
+            textaciklama.Text = null;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -146,6 +146,24 @@ namespace VeriTabanıProje
         private void hammaddeekleme_MouseUp(object sender, MouseEventArgs e)
         {
             mouseDown = false;
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            uretimsecim uretimsecim = new uretimsecim();
+            uretimsecim.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+            this.Close();
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

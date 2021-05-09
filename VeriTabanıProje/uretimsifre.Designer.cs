@@ -142,6 +142,9 @@ namespace VeriTabanıProje
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "uretimsifre";
             this.Text = "uretimsifre";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.uretimsifre_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.uretimsifre_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.uretimsifre_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

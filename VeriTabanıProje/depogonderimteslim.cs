@@ -89,6 +89,8 @@ namespace VeriTabanıProje
 
         private void label8_Click(object sender, EventArgs e)
         {
+            depomenu depomenu = new depomenu();
+            depomenu.Show();
             this.Hide();
         }
 

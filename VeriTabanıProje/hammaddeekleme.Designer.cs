@@ -97,6 +97,7 @@
             this.label9.Size = new System.Drawing.Size(23, 25);
             this.label9.TabIndex = 57;
             this.label9.Text = "_";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // textaciklama
             // 
@@ -137,6 +138,7 @@
             this.label7.Size = new System.Drawing.Size(24, 25);
             this.label7.TabIndex = 45;
             this.label7.Text = "<";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
             // 
@@ -159,6 +161,7 @@
             this.label5.Size = new System.Drawing.Size(26, 25);
             this.label5.TabIndex = 43;
             this.label5.Text = "X";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // textbrfiyat
             // 
